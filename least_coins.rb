@@ -1,9 +1,7 @@
 #write out your code here
-
+cents = {}
 def least_coins(cents)
-  puts coins = {"quarters" => 0, "dimes" => 10, "nickels" => 0, "pennies" => 0}
- 
-
+ coins = {"quarters" => 0, "dimes" => 10, "nickels" => 0, "pennies" => 0}
 
 while cents >= 25
 coins["quarters"] += 1
