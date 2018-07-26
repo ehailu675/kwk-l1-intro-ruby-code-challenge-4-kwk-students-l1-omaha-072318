@@ -22,6 +22,7 @@ while cents >= 1
 coins["pennies"] += 1
 cents -= 1
 end
+return coins
 end 
 
 
